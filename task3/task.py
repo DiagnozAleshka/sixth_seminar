@@ -1,3 +1,4 @@
+# для нахождения фиббоначи
 from functools import reduce
 
 fib = lambda n: reduce(lambda x, _: x + [x[-1] + x[-2]],
